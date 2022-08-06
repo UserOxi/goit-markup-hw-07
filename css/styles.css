@@ -919,7 +919,7 @@ ul {
   opacity: 1;
 }
 
-.card-content-portfolio {
+.product__content {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
@@ -933,9 +933,12 @@ ul {
 .product__title {
   margin-bottom: 4px;
 
+  text-align: left;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--txt-dark-cl);
 }
 
 .product__txt {
